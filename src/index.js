@@ -1,3 +1,4 @@
+import 'bootstrap';
 import React from 'react';
 import ReactDOM from "react-dom"; 
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
@@ -13,9 +14,9 @@ export default function App() {
   return (  
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />} >
         <Route index element={<Home />} />
-        <Route path="./pages/Data" element={<Data />} />
+        <Route path="Data" element={<Data />} />
         <Route path="News" element={<News />} />
         <Route path="Opinion" element={<Opinion />} />
         <Route path="About" element={<About />} />
