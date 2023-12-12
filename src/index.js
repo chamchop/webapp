@@ -9,6 +9,7 @@ import Data from "./pages/Data";
 import News from "./pages/News";
 import Opinion from "./pages/Opinion"; 
 import NoPage from "./pages/NoPage"; 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 export default function App() {   
   return (  
